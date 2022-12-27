@@ -181,7 +181,7 @@ class UnifiedPlan extends HandlerInterface {
   Future<HandlerReceiveResult> receive(HandlerReceiveOptions options) async {
     
     if (_pc == null) {
-      await Future.delayed(Duration(seconds: 4), (){});
+      await Future.delayed(Duration(seconds: 3), (){});
     }
     _assertRecvDirection();
 
