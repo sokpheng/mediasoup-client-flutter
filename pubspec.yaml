@@ -15,7 +15,7 @@ dependencies:
   sdp_transform: ^0.3.2
   collection: ^1.16.0
   h264_profile_level_id: ^0.2.0
-  flutter_webrtc: ^0.9.34
+  flutter_webrtc: ^0.9.35
 
 dev_dependencies:
   flutter_test:
